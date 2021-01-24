@@ -54,7 +54,6 @@ public:
 	}
 
 	// At a given index add amountToAdd
-	// Using bitwise or we can perform the 
 	void add(int index, int amountToAdd)
 	{
 		for (; index < size; index = index | (index + 1))
